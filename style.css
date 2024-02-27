@@ -6,13 +6,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F5CEA5;
-    color: #fff;
+    color: black;
 }
 
 /* Header styles */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #F5C0A4;
+    color: black;
     padding: 20px;
     text-align: center;
 }
