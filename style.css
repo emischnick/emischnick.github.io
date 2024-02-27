@@ -2,7 +2,7 @@
 
 /* Body styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Trebuchet MS, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #F5CEA5;
@@ -58,8 +58,8 @@ h1 {
 
 /* Footer styles */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #F5C0A4;
+    color: black;
     padding: 20px;
     text-align: center;
     position: fixed;
