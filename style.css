@@ -1,4 +1,4 @@
-/* Basic CSS Page */
+/* CSS Page */
 
 /* Body styles */
 body {
@@ -65,6 +65,7 @@ h1 {
             height: auto;
             margin: 5px;
         }
+/* section styles */
 .section {
             border: 2px solid #333; /* Add a border around the section */
             padding: 20px; /* Add some padding */
@@ -105,7 +106,7 @@ h1 {
     margin: 20px; /* Margin around the article */
     text-align: left;
   }
-/* New CSS for the video section */
+/* CSS for the video section */
 .video-section {
     border: 2px solid black; /* Add a border around the section */
     padding: 20px;
@@ -129,6 +130,7 @@ h1 {
 .caption {
     text-align: center; /* Center-align the caption */
 }
+/* Gallery styles */
  .gallery {
             display: flex;
             justify-content: space-around;
@@ -141,7 +143,7 @@ h1 {
             height: auto;
             margin-bottom: 20px;
         }
-
+/* aside styles */
 .aside {
             flex: 0 0 20%; /* Set the width of the aside */
             background-color: #F5E9BF;
@@ -154,7 +156,7 @@ main {
             padding: 0 20px;
             text-align: center; /* Center-align the facts */
         }
-
+/* fact styles */
         .fact {
             border: 2px solid #333; /* Add a border around each fact */
             padding: 20px;
