@@ -1,64 +1,173 @@
-<html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shiba Inus</title>
-   <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-    </style>
-</head>
-<body>
+/* Basic CSS Page */
 
-<header>
-   
-  <h1>Shiba Inus</h1>
-  
-</header>
+/* Body styles */
+body {
+    font-family: Trebuchet MS, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5CEA5;
+    color: black;
+}
 
-<nav>
-        <a href="history.html">History</a>
-        <a href="grooming.html">Grooming</a>
-       <a href="generalfacts.html">General Facts</a>
-    <a href="gallery.html">Gallery</a>
+/* Header styles */
+header {
+   background-image: url('https://images.vexels.com/content/307699/preview/shiba-inu-dog-pixel-art-pattern-design-a1de23.png');
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Adjust height as needed */
+    text-align: center;
+    color: Black;
+    padding-top: 30px; /* Adjust vertical padding as needed */
+}
 
-    
-</nav>
+/* Navigation styles */
+nav {
+    background-color: #F5B1A4;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
 
-<section class="section">
-  <h2>About This Site:</h2>
-  <p>Step into a world where the love for Shiba Inus knows no bounds. Our website is a sanctuary, born from the passion and dedication of its creator, Emma Mischnick, and her cherished Shiba Inu mix, Diego.
-          Whether you're a seasoned Shiba enthusiast or a curious newcomer, our website invites you to join our community, where passion meets purpose and every Shiba tale is cherished. Together, let's embark on a journey filled with joy, learning, and boundless affection for these extraordinary companions. Welcome to our Shiba Inu haven, where love reigns supreme.
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+}
 
-</p>
-        <div class="section-image">
-        <img src="Diego.jpg" alt="Shiba Inu Image" width="350" height="350">
-                 <figcaption>Emma Mischnick and Diego on Adoption Day!</figcaption>
-    </div>
-</section>
+nav a:hover {
+    text-decoration: underline;
+}
+ 
+/* Main content styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+}
 
-<article class="article">
-  <h2>Shiba Inus: A Spirited Breed</h2>
-  <p>Shiba Inus are a small to medium-sized breed of dog originating from Japan. Known for their spirited and independent nature, Shiba Inus possess a distinct and captivating personality. With their fox-like appearance, curled tails, and confident demeanor, they have captured the hearts of many dog enthusiasts around the world.
+/* Paragraph styles */
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
 
-Despite their small stature, Shiba Inus are sturdy and agile dogs, often displaying remarkable athleticism. They are known for their intelligence and can be quite resourceful, although their independent streak can sometimes make training a challenge.
+/* Heading styles */
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .image-gallery img {
+            width: 200px;
+            height: auto;
+            margin: 5px;
+        }
+.section {
+            border: 2px solid #333; /* Add a border around the section */
+            padding: 20px; /* Add some padding */
+            margin-bottom: 20px; /* Add some margin to separate sections */
+            text-align: center;
 
-While Shiba Inus are loyal and affectionate with their families, they can be reserved or aloof around strangers. They have a strong sense of self and may not always be eager to please, preferring to do things on their own terms.
+        }
 
-Shiba Inus thrive in environments where they have space to roam and explore, but they can also adapt well to urban living with proper exercise and mental stimulation. With their unique blend of charm, energy, and independence, Shiba Inus make delightful companions for those who appreciate their spirited nature.
+        .section-content {
+            float: left; /* Float the content to the left */
+            width: 70%; /* Adjust the width of the content */
+        }
+
+        .section-image {
+            float: right; /* Float the image to the right */
+            margin-left: 20px; /* Add some space between the content and the image */
+
+        }
+.section-image2 {
+            float: right; /* Float the image to the right */
+            margin-left: 20px; /* Add some space between the content and the image */
+                    margin-top: -250px; /* Adjust the top margin as needed */
+
+        }
+.section2 {
+            border: 2px solid #333; /* Add a border around the section */
+            padding: 20px; /* Add some padding */
+            margin-bottom: 20px; /* Add some margin to separate sections */
+            text-align: left;
+
+        }
 
 
+  /* Style for the article */
+  .article {
+    border: 2px solid #333; /* Border style */
+    padding: 20px; /* Padding inside the article */
+    margin: 20px; /* Margin around the article */
+    text-align: left;
+  }
+/* New CSS for the video section */
+.video-section {
+    border: 2px solid black; /* Add a border around the section */
+    padding: 20px;
+    margin: 20px auto; /* Center the section */
+    max-width: 800px; /* Limit the maximum width of the section */
+}
 
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Maintain the aspect ratio (16:9) */
+}
 
-</p>
-</article>
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.caption {
+    text-align: center; /* Center-align the caption */
+}
+ .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
 
+        .gallery img {
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+        }
 
-<footer>
-    <p>Emma Mischnick and Diego Mischnick &copy; 2024</p>
-        <p>Art desinged by Vexel</p>
-</footer>
+.aside {
+            flex: 0 0 20%; /* Set the width of the aside */
+            background-color: #F5E9BF;
+            padding: 20px;
+         border: 2px solid #333; /* Add a border around the section */
+            text-align: left;
 
-</body>
-</html>
+        }
+main {
+            padding: 0 20px;
+            text-align: center; /* Center-align the facts */
+        }
+
+        .fact {
+            border: 2px solid #333; /* Add a border around each fact */
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+/* Footer styles */
+footer {
+    background-image: url('https://images.vexels.com/content/307699/preview/shiba-inu-dog-pixel-art-pattern-design-a1de23.png');
+    background-size: cover;
+    background-position: center;
+    height: 150px; /* Adjust height as needed */
+    text-align: center;
+    color: black;
+    padding-top: 20px; /* Adjust vertical padding as needed */
+}
