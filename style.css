@@ -82,6 +82,8 @@ h1 {
         .section-image {
             float: right; /* Float the image to the right */
             margin-left: 20px; /* Add some space between the content and the image */
+            margin-top: 100px; /* Adjust the top margin as needed */
+
 
         }
 .section-image2 {
